@@ -1,3 +1,4 @@
 # Files to ignore
 .vscode/*
 /datasets/imagenet2012/*
+/datasets/downloads/manual*
