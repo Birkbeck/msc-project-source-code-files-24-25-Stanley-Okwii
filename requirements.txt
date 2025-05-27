@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+seaborn
+tensorflow
+tensorflow-macos
+tensorflow-metal
+tensorflow-datasets
+pandas
+
