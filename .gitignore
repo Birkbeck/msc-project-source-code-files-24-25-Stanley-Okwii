@@ -1,4 +1,6 @@
 # Files to ignore
+*.pyc
+__pycache__/
 .vscode/*
 /datasets/imagenet2012/*
 /datasets/downloads/manual*
