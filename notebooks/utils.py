@@ -15,7 +15,7 @@ def setup_tensorflow_environment():
         # Set compute units (GPU cores) utilization
         tf.config.experimental.set_virtual_device_configuration(
             physical_devices[1],
-            [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=24576)]  # 24GB RAM allocation
+            [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=45576)]  # 24GB RAM allocation
         )
     except:
         print("No GPU devices found")
