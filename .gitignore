@@ -2,3 +2,4 @@
 .venv/
 .vscode/*
 /datasets/
+.ipynb_checkpoints/

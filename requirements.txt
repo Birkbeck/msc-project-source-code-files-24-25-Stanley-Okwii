@@ -5,5 +5,4 @@ tensorflow
 tensorflow-macos
 tensorflow-metal
 tensorflow-datasets
-pandas
 ipykernel  # Required when running notebooks in vscode
