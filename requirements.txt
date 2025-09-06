@@ -6,3 +6,4 @@ tensorflow-macos
 tensorflow-metal
 tensorflow-datasets
 ipykernel  # Required when running notebooks in vscode
+nbformat # Run notebooks in other notebooks...
