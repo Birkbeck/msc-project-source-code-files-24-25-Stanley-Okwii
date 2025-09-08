@@ -1,17 +1,15 @@
 # Adversarial training with ResNet-50
 Researching influence of adversarial training on AI model performance
 
-TODO: Push code to personal repository, since I can't fork from BBK
-
 ## To Run
-- Clone repository
-- Download data from imagenet - 2015
-- In the root directory, run `python -m venv .venv ` to create a virtual environment
-- `source .venv/bin/activate`
+- Clone this repository
+- Download data from Imagenet2012(https://www.image-net.org)
+- In the root directory, run `python -m venv .venv ` to create a virtual environment.
+- Activate the virtual environment by running `source .venv/bin/activate`
 - Run `pip install -r requirements.txt -q`
-- In VS code, select the kernel as the venv created earlier
-
-
-https://obscure-space-guacamole-vpjj677559xcpwpr-8888.app.github.dev/tree/?token=954d884b00e481a18407a258d43af5f6c42639e8a20a25db
-
-Run notebook in the background: jupyter execute src/adversarial_data_generation.ipynb  &> jupyter_server.log & disown
+- In VS code, select the kernel as the `venv`
+- Run each of the notebooks in the order below:-
+    - data_processing.ipynb - Preprocess the data, shows the dataset class distribution and generates adversarial data
+    - resnet_50_base_metrics - Evaluates the base resnet-50 against adversarial and standard test dataset
+    - adversarial_model_training - Use adversarial data to retrain the model, generating a robust model as the result
+    - performance_evaluation - Evaluates performance of adversarially trained resnet-50 model.
