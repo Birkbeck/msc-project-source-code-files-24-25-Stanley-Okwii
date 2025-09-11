@@ -8,6 +8,7 @@ Researching influence of adversarial training on AI model performance
 - Activate the virtual environment by running `source .venv/bin/activate`
 - Run `pip install -r requirements.txt -q`
 - In VS code, select the kernel as the `venv`
+- In the root directory, create a `datasets` folder and add the downloaded data from Imagenet. Here is an example of the datasets folder and data it contains: https://drive.google.com/drive/folders/1Y56Ta5sxSWJ7MANHLwgmH3ch4Sq3sG8a?usp=share_link
 - Run each of the notebooks in the order below:-
     - data_processing.ipynb - Preprocess the data, shows the dataset class distribution and generates adversarial data
     - resnet_50_base_metrics - Evaluates the base resnet-50 against adversarial and standard test dataset

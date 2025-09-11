@@ -1,6 +1,6 @@
 # files to ignore
 .venv/
 .vscode/*
-/datasets/
+datasets/*
 .ipynb_checkpoints/
 .keras
